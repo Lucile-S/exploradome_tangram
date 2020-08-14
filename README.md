@@ -319,7 +319,7 @@ conda activate yolov4-gpu
 # Create a pip env on the cloned githud folder
 py -m pip install --user virtualenv
 py -m venv yolov4-gpu
-.\yolov4-gpu\Scripts\actvate # on windows
+.\yolov4-gpu\Scripts\activate # on windows
 
 # TensorFlow CPU
 pip install -r requirements.txt
